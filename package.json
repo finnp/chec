@@ -2,7 +2,7 @@
   "name": "chec",
   "version": "1.0.0",
   "description": "streamable checklist tool",
-  "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/finnp/chec/issues"
   },
-  "homepage": "https://github.com/finnp/chec"
+  "homepage": "https://github.com/finnp/chec",
+  "dependencies": {
+    "get-port": "^1.0.0",
+    "open": "0.0.5",
+    "split": "^0.3.3",
+    "todomvc-app-css": "^2.0.1"
+  },
+  "preferGlobal": "true"
 }
